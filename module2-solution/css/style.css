@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+div {
+	
+
+}
+.items {
+    float: left;
+}
+.item {
+    background: grey;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px 7px 5px 7px ;
+    position: relative;
+
+
+
+
+}
+h2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 1px solid black;
+    width: 150px;
+}
+#item1 {
+	background: #A15D63FF;
+}
+#item2 {
+	background: #CA343DFF;
+}
+#item3 {
+	background: #B79247;
+}
+
+/*Responsive Design*/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left; 
+		width: 30%;
+		}
+	}	
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left; 
+		width: 44.5%;
+	}
+	.col-md-12 {
+		float: left; 
+		width: 90%;
+	}
+}
