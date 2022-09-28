@@ -27,4 +27,4 @@ helloSpeaker.speak = function speak(name) {
 // xxxx.xxxx = helloSpeaker;
 window.helloSpeaker = helloSpeaker;  //vb
 })(window);
-helloSpeaker.speak();
+// helloSpeaker.speak();
